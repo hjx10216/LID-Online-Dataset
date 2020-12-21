@@ -12,8 +12,8 @@
 中国海绵城市径流控制设施数据库的建设，可以为海绵城市径流控制设施的效能评估、运营维护和成本效
 益分析提供数据支持，服务于海绵城市的规划设计和建设。
 
-- [Bioretention](https://github.com/hjx10216/LID-Online-Dataset/blob/main/DataBioretention.md)
-- [Material Design Lite](https://getmdl.io/)
+- [生物滞留池](https://github.com/hjx10216/LID-Online-Dataset/blob/main/DataBioretention.md)
+- [蓄水池](https://github.com/hjx10216/LID-Online-Dataset/blob/main/DataDetentionbasin.md)
 - [Assembly](https://mapbox.com/assembly/documentation/)
 
 ### Required Components
