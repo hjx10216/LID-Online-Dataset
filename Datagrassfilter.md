@@ -1,4 +1,4 @@
-# grassfilter数据库
+# 过滤草带数据库
 
 ## 数据库说明
 
@@ -28,7 +28,7 @@
 | Manning     | Manning’s n设计重现期最大径流量的曼宁系数                                                   |
 | Comments    | 注释                                                                           |
 
-## grassfilter数据
+## 过滤草带数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName           | NSIR | GDH | GDL | SG              | RCR | DR | Length | Width | LS | DFD | DFV | GSD | ISI | Manning | Comments |
 |----------|----|-------|---------|------|--------|-----------|-----------------------|------|-----|-----|-----------------|-----|----|--------|-------|----|-----|-----|-----|-----|---------|----------|

@@ -1,4 +1,4 @@
-# 蓄水池数据库
+# 干塘数据库
 
 ## 数据库说明
 
@@ -39,7 +39,7 @@
 | Comments    | 注释                                                                           |
 
 
-## 蓄水池数据
+## 干塘数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName | NSIR | GDH | GDL | SG  | RCR   | DR | DFRP | SA  | Volume | Length | CA | RATIOTSA | HOOA | BFVET | HBFVET | BSV | BSSA | SideType | SideSlope | FV | FSA | FD | PS       | FCV | Comments |
 |----------|----|-------|---------|------|--------|-----------|-------------|------|-----|-----|-----|-------|----|------|-----|--------|--------|----|----------|------|-------|--------|-----|------|----------|-----------|----|-----|----|----------|-----|----------|

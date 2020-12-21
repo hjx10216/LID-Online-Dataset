@@ -1,4 +1,4 @@
-# rainwaterharvest数据库
+# 雨水收集系统数据库
 
 ## 数据库说明
 
@@ -29,7 +29,7 @@
 | CPWST       | "Can Potable Water Supplement Tank?（1 for yes, 0 for no）可以用饮用水补充水箱吗？" |
 | Comments    | 注释                                                                    |
 
-## rainwaterharvest数据
+## 雨水收集系统数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName   | Type  | RCR | DR | SV        | NOUIW | CRS     | RAGMD | Material     | Area | Height | DT  | DEOP | DMP | IUOCW                        | CPWST | Comments |
 |----------|----|-------|---------|------|--------|-----------|---------------|-------|-----|----|-----------|-------|---------|-------|--------------|------|--------|-----|------|-----|------------------------------|-------|----------|

@@ -1,4 +1,4 @@
-# infbasin数据库
+# 渗透塘数据库
 
 ## 数据库说明
 
@@ -32,7 +32,7 @@
 | GFG         | Groundwater Flow Gradient，地下水的流量梯度，单位：mm/h                                                 |
 | Comments    | 注释                                                                                         |
 
-## infbasin数据
+## 渗透塘数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName | NSIR | GDH | GDL | SG    | RCR   | DR | DFRP | Volume | Area | Depth | Length | DTIL | DTSL | PS | GM  | FCV | GHC | GFG | Comments |
 |----------|----|-------|---------|------|--------|-----------|-------------|------|-----|-----|-------|-------|----|------|--------|------|-------|--------|------|------|----|-----|-----|-----|-----|----------|

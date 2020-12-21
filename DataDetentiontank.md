@@ -1,4 +1,4 @@
-# detentiontank数据库
+# 调蓄池数据库
 
 ## 数据库说明
 
@@ -27,7 +27,7 @@
 | Comments    | 注释                                         |
 
 
-## detentiontank数据
+## 调蓄池数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName       | Type | DV         | Area | Depth | TA      | DR | RCR | OF | DT    | MSV   | PD     | DM       | Comments |
 |----------|----|-------|---------|------|--------|-----------|-------------------|------|------------|------|-------|---------|----|-----|----|-------|-------|--------|----------|----------|

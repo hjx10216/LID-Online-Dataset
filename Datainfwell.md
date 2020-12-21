@@ -1,4 +1,4 @@
-# infwell数据库
+# 渗井数据库
 
 ## 数据库说明
 
@@ -37,7 +37,7 @@
 | HOOA         | Height of Outlet Above，溢流口高度                                                 |
 | Comments     | 注释                                                                           |
 
-## infwell数据
+## 渗井数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName      | Type | NSIR | GDH   | GDL   | SG                               | RCR | DR | SV  | Length | Diameter | SurfaceArea | RATIOTSA | IR | Slope | Pretreatment | GLM | GLT   | POGL | SLM | SLT | POO  | OS  | HOOA | Comments |
 |----------|----|-------|---------|------|--------|-----------|------------------|------|------|-------|-------|----------------------------------|-----|----|-----|--------|----------|-------------|----------|----|-------|--------------|-----|-------|------|-----|-----|------|-----|------|----------|

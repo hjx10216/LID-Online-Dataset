@@ -1,4 +1,4 @@
-# retenpond数据库
+# 湿塘数据库
 
 ## 数据库说明
 
@@ -41,7 +41,7 @@
 | FCV             | Flood Control Volume，防洪量，单位：m3。超出水质净化容量的、可以承受的水量。                                    |
 | Comments        | 注释                                                                                   |
 
-## retenpond数据
+## 湿塘数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName    | NSIR  | GDH | GDL | SG | RCR | DR | DFRP | PPV | PPSA | PPL | PPD | SDV | SSA | SBL | SDD | RATIOTSA | OM | BET | HBET | SideType | SideSlope | VWB | VegetationRatio | FV | FSA | FD | FCV | Comments |
 |----------|----|-------|---------|------|--------|-----------|----------------|-------|-----|-----|----|-----|----|------|-----|------|-----|-----|-----|-----|-----|-----|----------|----|-----|------|----------|-----------|-----|-----------------|----|-----|----|-----|----------|

@@ -1,4 +1,4 @@
-# wetlandbasin数据库
+# 人工湿地数据库
 
 ## 数据库说明
 
@@ -48,7 +48,7 @@
 | DLT         | Drainage Layer Thickness，砾石排水层厚度，单位：mm                                       |
 | Comments    | 注释                                                                           |
 
-## wetlandbasin数据
+## 人工湿地数据
 
 | Record ID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName        | Type | NSIR | GDH | GDL | SG              | RCR    | DR | DFRP | TC | TSA      | RATIOTSA | PPV | PPSA | PPL | PPD | SDV | DSA | DBL | HRT     | BET | HBET | FV | FSA    | FD   | OPA | OPD | HOOA   | PS                  | PD | FCV | FLM | FLT | PDL | DLT | Comments |
 |-----------|----|-------|---------|------|--------|-----------|--------------------|------|------|-----|-----|-----------------|--------|----|------|----|----------|----------|-----|------|-----|-----|-----|-----|-----|---------|-----|------|----|--------|------|-----|-----|--------|---------------------|----|-----|-----|-----|-----|-----|----------|

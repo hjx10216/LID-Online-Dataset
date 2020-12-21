@@ -1,4 +1,4 @@
-# inftrench数据库
+# 渗渠数据库
 
 ## 数据库说明
 
@@ -36,7 +36,7 @@
 | POO         | Percentage of Opening，开孔率，范围：0~1                                             |
 | Comments    | 注释                                                                           |
 
-## inftrench数据
+## 渗渠数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName          | Type | NSIR | GDH | GDL | SG                | RCR | DR | SV       | Length  | Diameter | Width | Height | SurfaceArea | RATIOTSA | IR | Slope | GLM | GLT  | POGL | TM        | TT   | POO   | Comments |
 |----------|----|-------|---------|------|--------|-----------|----------------------|------|------|-----|-----|-------------------|-----|----|----------|---------|----------|-------|--------|-------------|----------|----|-------|-----|------|------|-----------|------|-------|----------|
