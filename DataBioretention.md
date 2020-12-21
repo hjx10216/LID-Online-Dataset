@@ -1,6 +1,57 @@
-# Bioretention
+# Bioretention数据库
 
 ## 数据库说明
+
+| RecordID        | 自增长主键，仅作为标识，无含义                                                              |
+|-----------------|------------------------------------------------------------------------------|
+| CN              | Country Name，国家名                                                             |
+| BMPID           | 源头设施编号                                                                       |
+| BMPName         | 源头设施名称                                                                       |
+| RSID            | 研究区域编号                                                                       |
+| RSName          | 研究区域名称                                                                       |
+| ProjectID       | 项目编号                                                                         |
+| ProjectName     | 项目名称                                                                         |
+| Type            | 生物滞留设施的类型                                                                    |
+| GDH             | Groundwater Depth High，地下水埋深（最浅），单位：mm                                       |
+| GDL             | Groundwater Depth Low，地下水埋深（最深），单位：mm                                        |
+| NSIR            | "Natural Soil Infiltration Rate,自然土壤入渗率，单位：mm/h"                             |
+| SG              | "Soil Group，土壤类型。NCRS水文土壤类别将土壤分为A,B,C,D四类，这一分类反映了土壤入渗率，A组土壤入渗率最高，D组土壤入渗率最低。" |
+| RCR             | Runoff Control Rate，年径流总量控制率，范围：0~1                                          |
+| DR              | Design Rainfall，设计雨强，单位：mm/24hr                                              |
+| BSA             | 生物滞留设施面积，单位：m2                                                               |
+| CA              | Catchment Area，汇水区面积，单位：m2                                                   |
+| RATIOTSA        | Ratio of Tributary Area to Bioretention Surface Area，服务面积比                   |
+| SIR             | Saturated Infiltration Rate，种植土层饱和渗透系数（实验时），单位：mm/h                          |
+| DIR             | Design Infiltration Rate，种植土层设计渗透系数，单位：mm/h                                  |
+| PD              | Ponding Depth，生物滞留设施介质表面之上的平均积水深度，即蓄水层深度，单位：mm                               |
+| PV              | Ponding Volume，生物滞留设施介质表面之上的积水体积，即蓄水层体积，单位：m3                                |
+| PVET            | Ponding Volume Emptying Time，蓄水层滞水排空时间，单位：h                                  |
+| Shape           | 生物滞留设施的形状                                                                    |
+| HOA             | "Height of Outlet Above，溢流口高度（相对于底部）,单位：mm"                                  |
+| ISZ             | "（1 for yes, 0 for no）有无内部储水区/淹没区"                                           |
+| ISZD            | Internal Storage Zone Depth，淹没区深度，单位：mm                                      |
+| SSV             | Subsurface Storage Volume，地下存储容积，单位：m3                                       |
+| MM              | Mulch Material，覆盖层描述                                                         |
+| MT              | Mulch Thickness，覆盖层厚度。单位：mm                                                  |
+| PSLM            | Planting Soil Layer Material，种植土层类型，如砂土、壤土等                                  |
+| PSLT            | Planting Soil Layer Thickness，种植土层深度，单位：mm                                   |
+| FLM             | Filter Layer Material，滤水层材质，包括材质类型及比例                                        |
+| FLT             | Filter Layer Thickness，滤水层深度，单位：mm                                           |
+| UGLM            | Underdrain Gravel Layer Material，砾石排水层材质                                     |
+| PUGL            | Porosity of Underdrain Gravel Layer，砾石排水层的孔隙率，范围：0~1                         |
+| UGLT            | Underdrain Gravel Layer Thickness，砾石排水层深度，单位：mm                              |
+| UM              | Underdrain Material，地下排水管材质                                                  |
+| UD              | Underdrain Dimension，地下排水管的尺寸，单位：mm                                          |
+| UOP             | Underdrain Opening Percent，地下排水管开孔率，范围：0~1                                   |
+| SLM             | Separation Layer Material，防渗层材质                                              |
+| SLT             | Separation Layer Thickness，防渗层厚度，单位：mm                                       |
+| PS24            | Plant Species24，24hr耐淹植物                                                     |
+| PS48            | Plant Species48，48hr耐淹植物                                                     |
+| PlantingDensity | 种植密度，单位:株/m2                                                                 |
+| Comments        | 注释                                                                           |
+
+
+## Bioretention数据
 
 | "RecordID"         | "CN"  | "BMPID" | "BMPName" | "RSID" | "RSName" | "ProjectID" | "ProjectName"          | "Type"   | "GDH"   | "GDL"   | "NSIR" | "SG"  | "RCR"   | "DR" | "BSA"     | "CA"  | "RATIOTSA" | "SIR" | "DIR" | "PD"    | "PV"     | "PVET" | "Shape"         | "HOA" | "ISZ"   | "ISZD" | "SSV" | "MM"   | "MT"  | "PSLM"           | "PSLT" | "FLM"                                | "FLT" | "UGLM" | "PUGL" | "UGLT"  | "UM" | "UD"  | "UOP" | "SLM" | "SLT" | "PS24"                 | "PS48" | "PlantingDensity" | "Comments" |
 |--------------------|-------|---------|-----------|--------|----------|-------------|------------------------|----------|---------|---------|--------|-------|---------|------|-----------|-------|------------|-------|-------|---------|----------|--------|-----------------|-------|---------|--------|-------|--------|-------|------------------|--------|--------------------------------------|-------|--------|--------|---------|------|-------|-------|-------|-------|------------------------|--------|-------------------|------------|
