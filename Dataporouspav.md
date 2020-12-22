@@ -1,35 +1,54 @@
-# rainwaterharvest数据库
+# 透水铺装数据库
 
 ## 数据库说明
 
-| 字段名称        | 字段说明                                                                  |
-|-------------|-----------------------------------------------------------------------|
-| RecordID    | 自增长主键，仅作为标识，无含义                                                       |
-| CN          | "Country Name,国家名"                                                    |
-| BMPID       | 源头设施编号                                                                |
-| BMPName     | 源头设施名称                                                                |
-| RSID        | 研究区域编号                                                                |
-| RSName      | 研究区域名称                                                                |
-| ProjectID   | 项目编号                                                                  |
-| ProjectName | 项目名称                                                                  |
-| Type        | 雨水收集系统的类型，如水箱/水桶/水桶？                                                  |
-| RCR         | Runoff Control Rate，年径流总量控制率，范围：0~1                                   |
-| DR          | Design Rainfall，设计雨强，单位：mm/24hr                                       |
-| SV          | Storage Volume，存储容积，单位：m3                                             |
-| NOUIW       | Number of Units in Watershed，汇水区内雨水收集系统的数量                            |
-| CRS         | Contributing Rooftop Size，有效屋顶尺寸，单位：m2                                |
-| RAGMD       | Roofing and Gutter Material Description，屋顶和排水沟材料描述                    |
-| Material    | 雨水收集系统的材质                                                             |
-| Area        | 雨水收集系统的面积，单位：m2                                                       |
-| Height      | 雨水收集系统的深度，单位：m                                                        |
-| DT          | Drain Time，最大速度下的排空时间，单位：h                                            |
-| DEOP        | Describe Emergency Overflow Provision，描述紧急情况的溢流准备                     |
-| DMP         | Describe Mosquito Prevention，描述蚊虫防护                                   |
-| IUOCW       | Intended Use of Captured Water，预计的雨水用途（如灌溉，冲厕）                        |
-| CPWST       | "Can Potable Water Supplement Tank?（1 for yes, 0 for no）可以用饮用水补充水箱吗？" |
-| Comments    | 注释                                                                    |
+| 字段名称        | 字段说明                                                                                   |
+|-------------|----------------------------------------------------------------------------------------|
+| RecordID    | 自增长主键，仅作为标识，无含义                                                                        |
+| CN          | Country Name，国家名                                                                       |
+| BMPID       | 源头设施编号                                                                                 |
+| BMPName     | 源头设施名称                                                                                 |
+| RSID        | 研究区域编号                                                                                 |
+| RSName      | 研究区域名称                                                                                 |
+| ProjectID   | 项目编号                                                                                   |
+| ProjectName | 项目名称                                                                                   |
+| Type        | 铺装类型                                                                                   |
+| NSIR        | Natural Soil Infiltration Rate，自然土壤入渗率，单位：mm/h                                         |
+| GDH         | Groundwater Depth\(High\)，地下水埋深（最浅），单位：mm                                              |
+| GDL         | Groundwater Depth\(Low\)，地下水埋深（最深），单位：mm                                               |
+| SG          | Soil Group，土壤类型                                                                        |
+| RCR         | Runoff Control Rate，年径流总量控制率，范围：0~1                                                    |
+| DR          | Design Rainfall，设计雨强，单位：mm/24hr                                                        |
+| RATIOTSA    | Ratio of Tributary Area to Pavement Surface Area，服务面积比                                 |
+| SIR         | Surface Infiltration Rate，表面渗透率（研究时），单位：mm/h                                           |
+| DIR         | Design Infiltration Rate，设计表面渗透率，单位：mm/h                                               |
+| SurfaceArea | 透水铺装表面积，单位：m2                                                                          |
+| Slope       | 坡度，单位：度                                                                                |
+| SLM         | Surface Layer Material，透水表面材料，主要分为材质透水（需标明透水砖铺装、透水水泥混凝土铺装或透水沥青混凝土铺装）和结构透水              |
+| POSL        | Porosity of Surface Layer，透水层空隙率，单位：mm                                                 |
+| SLT         | Surface Layer Thickness，透水表面层厚度，单位：mm                                                  |
+| PSM         | Permeable Subbase Material，透水找平层材料                                                     |
+| PST         | Permeable Subbase Thickness，透水找平层厚度                                                    |
+| TOGM        | Type of granular materials under the pavement，透水基层材料的类型                                |
+| POGM        | "Porosity of Granular Materials,透水基层材料的孔隙率，范围：0~1"                                     |
+| GMT         | Granular Materials Thickness，透水基层材料的厚度，单位:mm                                           |
+| ABM         | Aggregate Base Material，透水底基层的描述                                                       |
+| ABT         | Aggregate Base Thickness，透水底基层深度，单位：mm                                                 |
+| SLMaterial  | Separation Layer Material，防渗层材质                                                        |
+| SLThickness | Separation Layer Thickness，防渗层厚度，单位：mm                                                 |
+| IGGIMP      | "Is grass growing in modular pores?\(1 for yes, 0 for no\)孔隙中是否长草？"                    |
+| IGH         | "Is grass healthy?\(1 for yes, 0 for no\)如果长草，草是否健康？"                                  |
+| TSVAP       | "Total Storage Volume above Pavement, 铺装上的总存储容积，单位：m3"                                 |
+| EDTSVAP     | Estimated drain time of storage volume above pavement，铺装上存储容积的预计排空时间，单位：h              |
+| TSVGMUP     | Total storage volume of granular materials under pavement，铺装下颗粒材料的总存储容积，单位：m3          |
+| DTSVGMUP    | Drain time of the storage volume of materials under the pavement，铺装下颗粒材料存储容积的排空时间，单位：h |
+| UM          | Underdrain Material，地下排水管材质                                                            |
+| UD          | Underdrain Dimension，地下排水管尺寸，单位：mm                                                     |
+| POU         | Porosity of Underdrain，地下排水管孔隙率，范围：0~1                                                 |
+| HOOA        | Height of Outlet Above，溢流口高度                                                           |
+| Comments    | 注释                                                                                     |
 
-## rainwaterharvest数据
+## 透水铺装数据
 
 | RecordID | CN | BMPID | BMPName | RSID | RSName | ProjectID | ProjectName          | Type    | NSIR | GDH  | GDL   | SG       | RCR | DR | RATIOTSA | SIR | DIR | SurfaceArea | Slope | SLM               | POSL | SLT | PSM                 | PST | TOGM              | POGM | GMT | ABM     | ABT | SLMaterial | SLThickness | IGGIMP | IGH | TSVAP | EDTSVAP | TSVGMUP | DTSVGMUP | UM | UD | POU | HOOA | Comments |
 |----------|----|-------|---------|------|--------|-----------|----------------------|---------|------|------|-------|----------|-----|----|----------|-----|-----|-------------|-------|-------------------|------|-----|---------------------|-----|-------------------|------|-----|---------|-----|------------|-------------|--------|-----|-------|---------|---------|----------|----|----|-----|------|----------|

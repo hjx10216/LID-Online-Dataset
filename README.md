@@ -20,7 +20,7 @@
 - [渗透塘](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Datainfbasin.md)
 - [渗渠](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Datainftrench.md)
 - [渗井](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Datainfwell.md)
-- [porouspav](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Dataporouspav.md)
+- [透水铺装](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Dataporouspav.md)
 - [雨水收集系统](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Datarainwaterharvest.md)
 - [湿塘](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Dataretenpond.md)
 - [人工湿地](https://github.com/hjx10216/LID-Online-Dataset/blob/main/Datawetlandbasin.md)
